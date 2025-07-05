@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1E5F720C2E1940F2005ABE7E /* 5g1800.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 1E5F720A2E1940F2005ABE7E /* 5g1800.xlsx */; };
+		1E5F72652E1942AC005ABE7E /* ClusterMapSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1E5F72642E1942AC005ABE7E /* ClusterMapSwiftUI */; };
+		1E74AC7B2E13E84200F22742 /* GSMTowerWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1E74AC5B2E13E83F00F22742 /* GSMTowerWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1E74AC882E13E8E100F22742 /* ClusterMap in Frameworks */ = {isa = PBXBuildFile; productRef = 1E74AC872E13E8E100F22742 /* ClusterMap */; };
+		1E74AC8B2E13E8F900F22742 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 1E74AC8A2E13E8F900F22742 /* GRDB */; };
+		1E74AC8E2E13E91200F22742 /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = 1E74AC8D2E13E91200F22742 /* CoreXLSX */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1E74AC3B2E13E7E500F22742 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +30,72 @@
 			remoteGlobalIDString = 1E74AC2C2E13E7E300F22742;
 			remoteInfo = GSMTower;
 		};
+		1E74AC682E13E84200F22742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E74AC252E13E7E300F22742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E74AC5A2E13E83F00F22742;
+			remoteInfo = "GSMTowerWatch Watch App";
+		};
+		1E74AC722E13E84200F22742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E74AC252E13E7E300F22742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E74AC5A2E13E83F00F22742;
+			remoteInfo = "GSMTowerWatch Watch App";
+		};
+		1E74AC792E13E84200F22742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E74AC252E13E7E300F22742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E74AC5A2E13E83F00F22742;
+			remoteInfo = "GSMTowerWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1E74AC7F2E13E84200F22742 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1E74AC7B2E13E84200F22742 /* GSMTowerWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1E5F720A2E1940F2005ABE7E /* 5g1800.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5g1800.xlsx; sourceTree = "<group>"; };
 		1E74AC2D2E13E7E300F22742 /* GSMTower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSMTower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E74AC3A2E13E7E500F22742 /* GSMTowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSMTowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E74AC442E13E7E500F22742 /* GSMTowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSMTowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E74AC5B2E13E83F00F22742 /* GSMTowerWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GSMTowerWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E74AC672E13E84200F22742 /* GSMTowerWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GSMTowerWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E74AC712E13E84200F22742 /* GSMTowerWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GSMTowerWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1E74AC922E13E98E00F22742 /* Exceptions for "GSMTower" folder in "GSMTowerWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Services/Models/Point.swift,
+				Services/WatchCommunication/WatchSessionManager.swift,
+				UI/Screens/Compass/ComapssView.swift,
+				UI/Screens/Compass/CompassViewModel.swift,
+			);
+			target = 1E74AC5A2E13E83F00F22742 /* GSMTowerWatch Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1E74AC2F2E13E7E300F22742 /* GSMTower */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1E74AC922E13E98E00F22742 /* Exceptions for "GSMTower" folder in "GSMTowerWatch Watch App" target */,
+			);
 			path = GSMTower;
 			sourceTree = "<group>";
 		};
@@ -45,6 +109,21 @@
 			path = GSMTowerUITests;
 			sourceTree = "<group>";
 		};
+		1E74AC5C2E13E83F00F22742 /* GSMTowerWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GSMTowerWatch Watch App";
+			sourceTree = "<group>";
+		};
+		1E74AC6A2E13E84200F22742 /* GSMTowerWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GSMTowerWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		1E74AC742E13E84200F22742 /* GSMTowerWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GSMTowerWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +131,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5F72652E1942AC005ABE7E /* ClusterMapSwiftUI in Frameworks */,
+				1E74AC8E2E13E91200F22742 /* CoreXLSX in Frameworks */,
+				1E74AC882E13E8E100F22742 /* ClusterMap in Frameworks */,
+				1E74AC8B2E13E8F900F22742 /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,15 +152,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E74AC582E13E83F00F22742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E74AC642E13E84200F22742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E74AC6E2E13E84200F22742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5F720B2E1940F2005ABE7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F720A2E1940F2005ABE7E /* 5g1800.xlsx */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1E74AC242E13E7E300F22742 = {
 			isa = PBXGroup;
 			children = (
+				1E5F720B2E1940F2005ABE7E /* Resources */,
 				1E74AC2F2E13E7E300F22742 /* GSMTower */,
 				1E74AC3D2E13E7E500F22742 /* GSMTowerTests */,
 				1E74AC472E13E7E500F22742 /* GSMTowerUITests */,
+				1E74AC5C2E13E83F00F22742 /* GSMTowerWatch Watch App */,
+				1E74AC6A2E13E84200F22742 /* GSMTowerWatch Watch AppTests */,
+				1E74AC742E13E84200F22742 /* GSMTowerWatch Watch AppUITests */,
 				1E74AC2E2E13E7E300F22742 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +204,9 @@
 				1E74AC2D2E13E7E300F22742 /* GSMTower.app */,
 				1E74AC3A2E13E7E500F22742 /* GSMTowerTests.xctest */,
 				1E74AC442E13E7E500F22742 /* GSMTowerUITests.xctest */,
+				1E74AC5B2E13E83F00F22742 /* GSMTowerWatch Watch App.app */,
+				1E74AC672E13E84200F22742 /* GSMTowerWatch Watch AppTests.xctest */,
+				1E74AC712E13E84200F22742 /* GSMTowerWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,16 +221,22 @@
 				1E74AC292E13E7E300F22742 /* Sources */,
 				1E74AC2A2E13E7E300F22742 /* Frameworks */,
 				1E74AC2B2E13E7E300F22742 /* Resources */,
+				1E74AC7F2E13E84200F22742 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1E74AC7A2E13E84200F22742 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				1E74AC2F2E13E7E300F22742 /* GSMTower */,
 			);
 			name = GSMTower;
 			packageProductDependencies = (
+				1E74AC872E13E8E100F22742 /* ClusterMap */,
+				1E74AC8A2E13E8F900F22742 /* GRDB */,
+				1E74AC8D2E13E91200F22742 /* CoreXLSX */,
+				1E5F72642E1942AC005ABE7E /* ClusterMapSwiftUI */,
 			);
 			productName = GSMTower;
 			productReference = 1E74AC2D2E13E7E300F22742 /* GSMTower.app */;
@@ -163,6 +288,74 @@
 			productReference = 1E74AC442E13E7E500F22742 /* GSMTowerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1E74AC5A2E13E83F00F22742 /* GSMTowerWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E74AC7C2E13E84200F22742 /* Build configuration list for PBXNativeTarget "GSMTowerWatch Watch App" */;
+			buildPhases = (
+				1E74AC572E13E83F00F22742 /* Sources */,
+				1E74AC582E13E83F00F22742 /* Frameworks */,
+				1E74AC592E13E83F00F22742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1E74AC5C2E13E83F00F22742 /* GSMTowerWatch Watch App */,
+			);
+			name = "GSMTowerWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "GSMTowerWatch Watch App";
+			productReference = 1E74AC5B2E13E83F00F22742 /* GSMTowerWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E74AC662E13E84200F22742 /* GSMTowerWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E74AC802E13E84200F22742 /* Build configuration list for PBXNativeTarget "GSMTowerWatch Watch AppTests" */;
+			buildPhases = (
+				1E74AC632E13E84200F22742 /* Sources */,
+				1E74AC642E13E84200F22742 /* Frameworks */,
+				1E74AC652E13E84200F22742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E74AC692E13E84200F22742 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1E74AC6A2E13E84200F22742 /* GSMTowerWatch Watch AppTests */,
+			);
+			name = "GSMTowerWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "GSMTowerWatch Watch AppTests";
+			productReference = 1E74AC672E13E84200F22742 /* GSMTowerWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E74AC702E13E84200F22742 /* GSMTowerWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E74AC832E13E84200F22742 /* Build configuration list for PBXNativeTarget "GSMTowerWatch Watch AppUITests" */;
+			buildPhases = (
+				1E74AC6D2E13E84200F22742 /* Sources */,
+				1E74AC6E2E13E84200F22742 /* Frameworks */,
+				1E74AC6F2E13E84200F22742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E74AC732E13E84200F22742 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1E74AC742E13E84200F22742 /* GSMTowerWatch Watch AppUITests */,
+			);
+			name = "GSMTowerWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "GSMTowerWatch Watch AppUITests";
+			productReference = 1E74AC712E13E84200F22742 /* GSMTowerWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +377,17 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 1E74AC2C2E13E7E300F22742;
 					};
+					1E74AC5A2E13E83F00F22742 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1E74AC662E13E84200F22742 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1E74AC5A2E13E83F00F22742;
+					};
+					1E74AC702E13E84200F22742 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1E74AC5A2E13E83F00F22742;
+					};
 				};
 			};
 			buildConfigurationList = 1E74AC282E13E7E300F22742 /* Build configuration list for PBXProject "GSMTower" */;
@@ -195,6 +399,11 @@
 			);
 			mainGroup = 1E74AC242E13E7E300F22742;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1E74AC862E13E8E100F22742 /* XCRemoteSwiftPackageReference "ClusterMap" */,
+				1E74AC892E13E8F900F22742 /* XCRemoteSwiftPackageReference "GRDB" */,
+				1E74AC8C2E13E91200F22742 /* XCRemoteSwiftPackageReference "CoreXLSX" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1E74AC2E2E13E7E300F22742 /* Products */;
 			projectDirPath = "";
@@ -203,6 +412,9 @@
 				1E74AC2C2E13E7E300F22742 /* GSMTower */,
 				1E74AC392E13E7E500F22742 /* GSMTowerTests */,
 				1E74AC432E13E7E500F22742 /* GSMTowerUITests */,
+				1E74AC5A2E13E83F00F22742 /* GSMTowerWatch Watch App */,
+				1E74AC662E13E84200F22742 /* GSMTowerWatch Watch AppTests */,
+				1E74AC702E13E84200F22742 /* GSMTowerWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5F720C2E1940F2005ABE7E /* 5g1800.xlsx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +436,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1E74AC422E13E7E500F22742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E74AC592E13E83F00F22742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E74AC652E13E84200F22742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E74AC6F2E13E84200F22742 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +487,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E74AC572E13E83F00F22742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E74AC632E13E84200F22742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E74AC6D2E13E84200F22742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +520,21 @@
 			isa = PBXTargetDependency;
 			target = 1E74AC2C2E13E7E300F22742 /* GSMTower */;
 			targetProxy = 1E74AC452E13E7E500F22742 /* PBXContainerItemProxy */;
+		};
+		1E74AC692E13E84200F22742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E74AC5A2E13E83F00F22742 /* GSMTowerWatch Watch App */;
+			targetProxy = 1E74AC682E13E84200F22742 /* PBXContainerItemProxy */;
+		};
+		1E74AC732E13E84200F22742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E74AC5A2E13E83F00F22742 /* GSMTowerWatch Watch App */;
+			targetProxy = 1E74AC722E13E84200F22742 /* PBXContainerItemProxy */;
+		};
+		1E74AC7A2E13E84200F22742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E74AC5A2E13E83F00F22742 /* GSMTowerWatch Watch App */;
+			targetProxy = 1E74AC792E13E84200F22742 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,8 +665,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV5K58C7VN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Zoom to user location on map, show direction to point";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,8 +694,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV5K58C7VN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Zoom to user location on map, show direction to point";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -510,6 +784,140 @@
 			};
 			name = Release;
 		};
+		1E74AC7D2E13E84200F22742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV5K58C7VN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GSMTowerWatch;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Zoom to user location on map, show direction to point";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jakubszczepaniak.GSMTower;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubszczepaniak.GSMTower.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		1E74AC7E2E13E84200F22742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV5K58C7VN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GSMTowerWatch;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Zoom to user location on map, show direction to point";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jakubszczepaniak.GSMTower;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubszczepaniak.GSMTower.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		1E74AC812E13E84200F22742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubszczepaniak.GSMTowerWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSMTowerWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GSMTowerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		1E74AC822E13E84200F22742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubszczepaniak.GSMTowerWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSMTowerWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GSMTowerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		1E74AC842E13E84200F22742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubszczepaniak.GSMTowerWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GSMTowerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		1E74AC852E13E84200F22742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubszczepaniak.GSMTowerWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GSMTowerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -549,7 +957,84 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1E74AC7C2E13E84200F22742 /* Build configuration list for PBXNativeTarget "GSMTowerWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E74AC7D2E13E84200F22742 /* Debug */,
+				1E74AC7E2E13E84200F22742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E74AC802E13E84200F22742 /* Build configuration list for PBXNativeTarget "GSMTowerWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E74AC812E13E84200F22742 /* Debug */,
+				1E74AC822E13E84200F22742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E74AC832E13E84200F22742 /* Build configuration list for PBXNativeTarget "GSMTowerWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E74AC842E13E84200F22742 /* Debug */,
+				1E74AC852E13E84200F22742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E74AC862E13E8E100F22742 /* XCRemoteSwiftPackageReference "ClusterMap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vospennikov/ClusterMap";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		1E74AC892E13E8F900F22742 /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1E74AC8C2E13E91200F22742 /* XCRemoteSwiftPackageReference "CoreXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/CoreXLSX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E5F72642E1942AC005ABE7E /* ClusterMapSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E74AC862E13E8E100F22742 /* XCRemoteSwiftPackageReference "ClusterMap" */;
+			productName = ClusterMapSwiftUI;
+		};
+		1E74AC872E13E8E100F22742 /* ClusterMap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E74AC862E13E8E100F22742 /* XCRemoteSwiftPackageReference "ClusterMap" */;
+			productName = ClusterMap;
+		};
+		1E74AC8A2E13E8F900F22742 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E74AC892E13E8F900F22742 /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+		1E74AC8D2E13E91200F22742 /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E74AC8C2E13E91200F22742 /* XCRemoteSwiftPackageReference "CoreXLSX" */;
+			productName = CoreXLSX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E74AC252E13E7E300F22742 /* Project object */;
 }
